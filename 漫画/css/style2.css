@@ -1,0 +1,98 @@
+body {
+  background-color: #EBEFCA;
+}
+
+header {
+  text-align: center;
+  margin-top: 2vw;
+}
+main {
+  border-bottom: solid 2px;
+  padding-bottom: 10vw;
+}
+
+.box1 {
+  text-align: center;
+}
+.box2 {
+  margin: 20px auto 40px;
+  background-color: white;
+  height: 2vw;
+  width: 10vw;
+}
+.box3 {
+  margin-left: 18vw;
+}
+.box4 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 5vw 18vw;
+
+
+}
+.container1 {
+  background-color: red;
+  height: 13vw;
+  width: 10vw;
+
+}
+.container2 {
+  background-color: white;
+  height: 13vw;
+  width: 10vw;
+
+}
+
+.container3 {
+  background-color: red;
+  height: 13vw;
+  width: 10vw;
+
+}
+.container4 {
+  background-color: white;
+  height: 13vw;
+  width: 10vw;
+
+}
+.box5 {
+  margin-left: 25vw;
+}
+.box6 {
+  background-color: white;
+  text-align: center;
+  margin: auto 25vw;
+  height: 20vw;
+
+}
+
+.box7 {
+  margin-left: 10vw;
+  margin-top: 5vw;
+
+}
+.box8 {
+  margin: 5vw auto;
+  background-color: white;
+  height: 2vw;
+  width: 60vw;
+}
+.box9 {
+  margin: 5vw auto;
+  background-color: white;
+  height: 2vw;
+  width: 60vw;
+}
+.box10 {
+  margin: 5vw auto;
+  background-color: white;
+  height: 2vw;
+  width: 60vw;
+}
+.box11 {
+  margin: 5vw auto;
+  background-color: white;
+  height: 2vw;
+  width: 60vw;
+}

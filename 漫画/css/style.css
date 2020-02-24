@@ -1,0 +1,293 @@
+@media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
+
+
+body {
+  background-image: url(../images/images3.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+
+  /*https://coliss.com/articles/build-websites/operation/css/css-responsive-full-background-image-by-sixrevisions.html*/
+}
+
+.header {
+    background-color: #ea6666;
+    font-family: 'Osaka-Mono';
+    display: table;
+    width: 100%
+}
+
+
+.header1 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.header1 h1,
+.header1 p {
+    margin: auto 0;
+
+}
+
+.main2 {
+    display: table;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    border-bottom: double 3px #76f076
+}
+
+.mainp {
+    display: table-cell;
+}
+
+.mainp p {
+    background-color: #858d95;
+    margin: 5;
+    color: aliceblue
+}
+
+.haikei {
+    background-image: url(../images/haikei4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 500px;
+    margin: 40px auto;
+    display: flex;
+    border-radius: 30px;
+    box-shadow:
+    inset 0 0 20px #fff /* 背景色と同じ色 */,
+    inset 0 0 20px #fff,
+    inset 0 0 20px #fff,
+    inset 0 0 20px #fff;
+  }
+
+
+.main4 {
+    text-align: center;
+    margin: auto
+}
+
+.main6 {
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 30vw;
+  margin-right: 30vw;
+}
+h2 {
+  position: relative;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+h2:before, h2:after {
+  content: '';
+  position: absolute;
+  top: -7px;
+  width: 2px;
+  height: -webkit-calc(100% + 14px);
+  height: calc(100% + 14px);
+  background-color: black;
+}
+h2:before {
+  left: 7px;
+}
+h2:after {
+  right: 7px;
+}
+.main7 {
+  text-align: center;
+  display: table;
+  width: 100%;
+  padding-top: 100px;
+}
+.image1 {
+  display: table-cell;
+}
+.main8 {
+  display: table;
+  text-align: center;
+  width: 100%;
+  padding-top: 100px;
+}
+.image2 {
+  display: table-cell;
+}
+.main9 {
+  text-align: center;
+  background-color:#ea6666;
+  margin: 80px 35vw;
+  padding: 2 0;
+}
+footer {
+  position: absolute;
+  bottom: 450px;
+  left: 83vw;
+}
+a.cp_btn {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	width: 120px;
+	height: 120px;
+	line-height: 120px;
+	border: double 4px black;
+	border-radius: 50%;
+	vertical-align: middle;
+	overflow: hidden;
+	transition: .6s;
+}
+a.cp_btn:hover {
+	transform: rotateY(360deg);
+}
+}
+@media screen and (max-width: 767px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
+  body {
+    background-image: url(../images/images3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    /*https://coliss.com/articles/build-websites/operation/css/css-responsive-full-background-image-by-sixrevisions.html*/
+  }
+
+  .header {
+      background-color: #ea6666;
+      font-family: 'Osaka-Mono';
+      display: table;
+      width: 100%
+  }
+
+
+  .header1 {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+
+  }
+
+  .header1 h1,
+  .header1 p {
+      margin: auto 0;
+
+  }
+
+  .main2 {
+      display: table;
+      width: 100%;
+      text-align: center;
+      padding-top: 5px;
+      border-bottom: double 3px #76f076
+  }
+
+  .mainp {
+      display: table-cell;
+  }
+
+  .mainp p {
+      background-color: #858d95;
+      margin: 5;
+      color: aliceblue
+  }
+
+  .haikei {
+      background-image: url(../images/haikei4.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      width: 500px;
+      margin: 40px auto;
+      display: flex;
+      border-radius: 30px;
+      box-shadow:
+      inset 0 0 20px #fff /* 背景色と同じ色 */,
+      inset 0 0 20px #fff,
+      inset 0 0 20px #fff,
+      inset 0 0 20px #fff;
+    }
+
+
+  .main4 {
+      text-align: center;
+      margin: auto
+  }
+
+  .main6 {
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 30vw;
+    margin-right: 30vw;
+  }
+  h2 {
+    position: relative;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+  }
+  h2:before, h2:after {
+    content: '';
+    position: absolute;
+    top: -7px;
+    width: 2px;
+    height: -webkit-calc(100% + 14px);
+    height: calc(100% + 14px);
+    background-color: black;
+  }
+  h2:before {
+    left: 7px;
+  }
+  h2:after {
+    right: 7px;
+  }
+  .main7 {
+    text-align: center;
+    display: table;
+    width: 100%;
+    padding-top: 100px;
+  }
+  .image1 {
+    display: table-cell;
+  }
+  .main8 {
+    display: table;
+    text-align: center;
+    width: 100%;
+    padding-top: 100px;
+  }
+  .image2 {
+    display: table-cell;
+  }
+  .main9 {
+    text-align: center;
+    background-color:#ea6666;
+    margin: 80px 35vw;
+    padding: 2 0;
+  }
+  footer {
+    position: absolute;
+    bottom: 450px;
+    
+  }
+  a.cp_btn {
+  	display: block;
+  	text-align: center;
+  	text-decoration: none;
+  	color: black;
+  	width: 120px;
+  	height: 120px;
+  	line-height: 120px;
+  	border: double 4px black;
+  	border-radius: 50%;
+  	vertical-align: middle;
+  	overflow: hidden;
+  	transition: .6s;
+  }
+  a.cp_btn:hover {
+  	transform: rotateY(360deg);
+  }
+  }
+}
